@@ -1,0 +1,26 @@
+.userList {
+    flex: 4;
+}
+
+.userListAction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.userListEditButton {
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #3bb077;
+    color: white;
+}
+
+.userListDeleteButton {
+    cursor: pointer;
+    color: red;
+}
